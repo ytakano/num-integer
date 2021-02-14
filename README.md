@@ -31,6 +31,7 @@ the default `std` feature.  Use this in `Cargo.toml`:
 [dependencies.num-integer]
 version = "0.1.36"
 default-features = false
+features = ["libm"]
 ```
 
 There is no functional difference with and without `std` at this time, but
